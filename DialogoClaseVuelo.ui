@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogoClaseVuelo</class>
+ <widget class="QDialog" name="DialogoClaseVuelo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>379</width>
+    <height>280</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Clase Vuelo</string>
+  </property>
+  <widget class="QLabel" name="lbl_escoja_clase_vuelo">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>251</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Escoja la clase del vuelo:</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rbn_primera_clase">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>80</y>
+     <width>160</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Primera clase</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rbn_clase_negocios">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>130</y>
+     <width>160</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Clase negocios</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rbn_clase_economica">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>180</y>
+     <width>160</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Clase económica</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_resultado_seleccion">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>240</y>
+     <width>241</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
