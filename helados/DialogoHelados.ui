@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Heladeria</class>
+ <widget class="QDialog" name="Heladeria">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>543</width>
+    <height>423</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Heladería Dialog</string>
+  </property>
+  <widget class="QLabel" name="lbl_menu">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Menú</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_seleccione_helado">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>100</y>
+     <width>151</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Seleccione helado</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_seleccione_bebida">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>100</y>
+     <width>191</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Selecione bebida</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="gbx_helados">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>130</y>
+     <width>211</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Helados</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <widget class="QCheckBox" name="chk_chocolate">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>171</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Chocolate 5€</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_vainilla">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>171</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Vainilla 4€</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_fresa">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>171</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fresa 6€</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_limon">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>161</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Limón 3€</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="gbx_bebidas">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>130</y>
+     <width>201</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Bebidas</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <widget class="QCheckBox" name="chk_agua">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>92</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agua 2€</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_cafe">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>92</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cafe 3€</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_refresco">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>92</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Refresco 4€</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="lbl_total">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>320</y>
+     <width>421</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
